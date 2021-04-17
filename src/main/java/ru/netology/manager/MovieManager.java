@@ -4,7 +4,6 @@ import ru.netology.domain.MovieItem;
 
 public class MovieManager {
   private MovieItem[] items = new MovieItem[0];
-  private int lastAdded = 10;
 
   public void add(MovieItem item) {
     int length = items.length + 1;
